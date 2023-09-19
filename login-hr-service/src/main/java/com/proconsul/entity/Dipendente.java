@@ -17,7 +17,7 @@ import jakarta.validation.constraints.Size;
 public class Dipendente implements Serializable{
 
 	@Id
-	@Column(name = "codice_fiscale",length = 16)
+	@Column(name = "codice_fiscale")
 	@Size(min = 16, max = 16)
 	private String codiceFiscale;
 	
