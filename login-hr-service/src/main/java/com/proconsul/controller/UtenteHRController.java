@@ -16,6 +16,7 @@ import com.proconsul.service.UtenteHRService;
 @RequestMapping("rest/api/hr")
 public class UtenteHRController {
 
+	// rest controller
 	@Autowired
 	private UtenteHRService utenteHRService;
 
